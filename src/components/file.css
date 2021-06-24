@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.navbar
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-items: center;
+    padding-left: 5em;
+    font-family: Poppins;
+    padding-top: 10px;
+}
+.brandname
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 145%;
+    font-family: Poppins;
+}
+.link
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 50em;
+    list-style: none;
+    font-family: Poppins;
+    cursor: pointer;
+}
+.product
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    border-bottom: 2px solid #E16259;
+    font-family: Poppins;
+}
+.download
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    padding-left: 15px;
+    font-family: Poppins;
+}
+.pricing
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    padding-left: 20px;
+    font-family: Poppins;
+}
+.divclass {
+    display: flex;
+    padding-left: 10em;
+    font-family: Poppins;
+}
+div .example {
+    padding: 20px;
+    width: 50%;
+}
+.img-bg img {
+    padding-top: 3rem;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+   
+}
+.h2new
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 69px;
+    line-height: 100%;
+    letter-spacing: -1.85px;
+    font-family: Poppins;
+}
+.pnew
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 145%;
+    font-family: Poppins;
+}
+.searchbar
+{
+    padding-top: 2rem;
+    padding-left: 5em;
+}
+.search
+{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 2.5em;
+    width: 20em;
+    font-family: Poppins;
+}
+input[type="text"]::placeholder 
+{               
+    padding-left: 10px; 
+} 
+input:focus
+{
+  background-color: #fff;
+  border: 0.25px solid #655afc;
+  outline: none;
+}
+.btn
+{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 20px;
+}
+.backbtn
+{
+    width: 3.5cm;
+    height: 3em;
+    color: #fff;
+    background-color: #3e64ff;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.backbtn:hover
+{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.filechooser
+{
+    margin-left: 30em;
+    margin-top: -2em;
+}
+.cards
+{
+    padding-top: 3em;
+    padding-left: 5em;
+    padding-right: 9em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    font-family: Poppins;
+    padding-bottom: 20px;
+}
+.listone
+{
+    width: 270px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px -6px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    
+}
+.textone
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.texttwo
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 135%;
+    color: #000000;
+    padding-left: 10px;
+}
+.textlink
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #E16259;
+    padding-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nodata
+{
+    padding-left: 5rem;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+{
+    .cards
+    {
+
+        grid-template-columns: 1fr 1fr  1fr;
+        padding-left: 11em;
+
+    }
+    .searchbar
+    {
+        padding-top: 2rem;
+        padding-left: 27em;
+    }
+    .btn
+    {
+        padding-top: 2rem;
+        padding-left: 30em;
+    }
+    .divclass
+    {
+        flex-direction: column;
+        margin-left: -8em;
+    }
+    .h2new
+    {
+       margin-left: 5cm;
+       margin-right: 2cm;
+    }
+    div .example
+    {
+        width: 120%;
+    }
+    .pnew
+    {
+        display:block;
+        margin-left: 5cm;
+        margin-right: 2cm;
+    }
+    .img-bg
+    {
+        margin-left: 8cm;
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+    }
+    .filechooser
+    {
+    margin-left: 35em;
+    margin-top: 2em;
+    }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+    .cards
+    {
+
+        grid-template-columns: 1fr 1fr;
+        padding-left: 20em;
+
+    }
+    .searchbar
+    {
+        padding-top: 2rem;
+        padding-left: 27em;
+    }
+    .btn
+    {
+        padding-top: 2rem;
+        padding-left: 30em;
+    }
+    .divclass
+    {
+        flex-direction: column;
+        margin-left: -8em;
+    }
+    div .example
+    {
+        width: 110%;
+    }
+    .h2new
+    {
+        display:block;
+       margin-left: 5cm;
+       width: 100%;
+    }
+    .pnew
+    {
+        margin-left: 5cm;
+    }
+    .img-bg
+    {
+        margin-left: 8cm;
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+    }
+    .filechooser
+    {
+    margin-left: 30em;
+    margin-top: 2em;
+    }
+}
